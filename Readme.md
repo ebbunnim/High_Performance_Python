@@ -3,6 +3,7 @@
 ### 실습 목적
 1. Coroutine을 이용한 비동기 HTTP 요청 이해하기
 2. Python GIL의 대안 찾기 
+3. concurrent.futures의 ThreadPoolExecutor 사용해 네트워크 I/O 성능 올리기
 
 ### 의존성 추가 관련
 코루틴을 이용한 방식이 가시적인 성능 향상을 가져오지 않는다면, 두가지 원인을 의심해볼 수 있다.    
